@@ -6,7 +6,7 @@ Based on K.F. Söderwall's Medieval Swedish Dictionary
 
 ### Install
 
-`go get github.com/stscoundrel/starboard`
+`go get github.com/stscoundrel/old-swedish-dictionary-go`
 
 ### About "Dictionary of Old Swedish"
 
