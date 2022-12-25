@@ -40,8 +40,9 @@ The entries are structs of:
 ```go
 type DictionaryEntry struct {
   Headword          string
-  PartOfSpeech      string
+  PartOfSpeech      []string
   GrammaticalAspect string
+  Information       string
   Definitions       []string
   AlternativeForms  []string
 }
