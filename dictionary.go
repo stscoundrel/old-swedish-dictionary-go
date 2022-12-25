@@ -8,10 +8,11 @@ import (
 
 type DictionaryEntry struct {
 	Headword          string   `json:"a"`
-	PartOfSpeech      string   `json:"b"`
+	PartOfSpeech      []string `json:"b"`
 	GrammaticalAspect string   `json:"c"`
-	Definitions       []string `json:"d"`
-	AlternativeForms  []string `json:"e"`
+	Information       string   `json:"d"`
+	Definitions       []string `json:"e"`
+	AlternativeForms  []string `json:"f"`
 }
 
 func parseDictionary(bytes []byte) ([]DictionaryEntry, error) {
